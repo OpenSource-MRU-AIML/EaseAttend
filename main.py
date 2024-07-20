@@ -10,13 +10,19 @@ today_date = datetime.now().strftime("%Y-%m-%d")
 # Get a reference to webcam #0 (the default one)
 video_capture = cv2.VideoCapture(0)
 
-# Load a sample picture and learn how to recognize it.
-img1_image = face_recognition.load_image_file("131.jpg")
+# # Load a sample picture and learn how to recognize it.
+# img1_image = face_recognition.load_image_file("131.jpg")
+# img1_face_encoding = face_recognition.face_encodings(img1_image)[0]
+
+# Load a second sample picture and learn how to recognize it.
+img1_image = face_recognition.load_image_file("136.jpeg")
 img1_face_encoding = face_recognition.face_encodings(img1_image)[0]
 
 # Load a second sample picture and learn how to recognize it.
 img2_image = face_recognition.load_image_file("133.jpg")
 img2_face_encoding = face_recognition.face_encodings(img2_image)[0]
+
+
 
 # Create arrays of known face encodings and their names
 known_face_encodings = [
@@ -25,7 +31,7 @@ known_face_encodings = [
 ]
 
 known_face_names = [
-    "Thayyaba Khatoon - ID",
+    "Sandesh - 2111CS020136"
     "Ganapathi - 2111CS020133"
 ]
 

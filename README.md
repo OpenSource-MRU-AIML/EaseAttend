@@ -1,6 +1,6 @@
 # EaseAttend
 
-https://drive.google.com/file/d/1AkrgRIwCaESyPWbTBjA1xf8qDwni87QH/view?usp=sharing
+<img src="./ease-frame.png" alt="Ease Attend Banner" />
 
 EaseAttend is an open-source computer software designed to capture faces and record attendance using facial recognition technology. The software leverages the `face_recognition` and `cv2` libraries to identify individuals and maintain attendance records.
 
@@ -22,16 +22,16 @@ EaseAttend is an open-source computer software designed to capture faces and rec
 
 1. Clone the repository:
 
-    ```sh
-    git clone https://github.com/yourusername/EaseAttend.git
-    cd EaseAttend
-    ```
+   ```sh
+   git clone https://github.com/yourusername/EaseAttend.git
+   cd EaseAttend
+   ```
 
 2. Install the required libraries:
 
-    ```sh
-    pip install face_recognition opencv-python numpy
-    ```
+   ```sh
+   pip install face_recognition opencv-python numpy
+   ```
 
 ## Usage
 
@@ -39,9 +39,9 @@ EaseAttend is an open-source computer software designed to capture faces and rec
 
 2. Run the script:
 
-    ```sh
-    python easeattend.py
-    ```
+   ```sh
+   python easeattend.py
+   ```
 
 3. The script will start the webcam and begin detecting faces. Detected faces will be displayed on the screen with their names.
 
